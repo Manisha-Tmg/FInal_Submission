@@ -175,7 +175,7 @@ header .shadow{
 }
 .products-container{
     width: 100%;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(280rem, auto));
     gap: 1rem;
     margin-top: 2rem;
@@ -190,7 +190,7 @@ header .shadow{
     box-shadow: var(--box-shadow);
 }
 .products-container img{
-    width: 5%;
+    width: 100%;
     height: 250px;
     object-fit: contain;
     object-position: center;
@@ -275,13 +275,12 @@ header .shadow{
     row-gap: 0.5rem;
 }
 .contact span{
-    display: grid;
+    display: flex;
     align-items: center;
 
 }
 .contact i{
     font-size: 15px;
-    margin-bottom: 1rem;
 }
 
 .copyright{
